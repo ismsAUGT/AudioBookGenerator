@@ -6,9 +6,10 @@ audio_output/
 *.mp3
 *.flac
 
-# Text input files (user content)
-text_input/
-completed/
+# Text input files (user content) - ignore all files within these folders
+text_input/*
+completed/*
+audio_output/*
 
 # Generated chapter files
 jaynes_chapters/
@@ -17,6 +18,10 @@ jaynes_chapters_final/
 jaynes_chapters_ultimate/
 smart_chapters/
 book_chapters/
+
+# Specific folders to ignore
+Andrew WIP Doc Splits/
+Caitlin WIP Doc Splits/
 
 # Python cache
 __pycache__/
