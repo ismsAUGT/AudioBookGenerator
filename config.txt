@@ -1,0 +1,73 @@
+# Kokoro TTS Configuration
+# Edit the VOICE setting below to change the voice used for conversion
+
+VOICE=bm_george
+
+# Available Voices (uncomment to use):
+# American English:
+# af_bella     - Bella (female) - Recommended
+# af_heart     - Heart (female) - Special voice
+# af_sarah     - Sarah (female)
+# af_nicole    - Nicole (female)
+# af_sky       - Sky (female)
+# af_alloy     - Alloy (female)
+# af_aoede     - Aoede (female)
+# af_jessica   - Jessica (female)
+# af_kore      - Kore (female)
+# af_nova      - Nova (female)
+# af_river     - River (female)
+# am_adam      - Adam (male)
+# am_michael   - Michael (male)
+# am_echo      - Echo (male)
+# am_eric      - Eric (male)
+# am_fenrir    - Fenrir (male)
+# am_liam      - Liam (male)
+# am_onyx      - Onyx (male)
+# am_puck      - Puck (male)
+# am_santa     - Santa (male)
+
+# British English:
+# bf_emma      - Emma (female)
+# bf_isabella  - Isabella (female)
+# bf_alice     - Alice (female)
+# bf_lily      - Lily (female)
+# bm_george    - George (male)
+# bm_lewis     - Lewis (male)
+# bm_daniel    - Daniel (male)
+# bm_fable     - Fable (male)
+
+# Other Languages:
+# jf_alpha     - Japanese (female)
+# jf_gongitsune - Japanese (female)
+# jf_nezumi    - Japanese (female)
+# jf_tebukuro  - Japanese (female)
+# jm_kumo      - Japanese (male)
+# zf_xiaobei   - Chinese (female)
+# zf_xiaoni    - Chinese (female)
+# zf_xiaoxiao  - Chinese (female)
+# zf_xiaoyi    - Chinese (female)
+# zm_yunjian   - Chinese (male)
+# zm_yunxi     - Chinese (male)
+# zm_yunxia    - Chinese (male)
+# zm_yunyang   - Chinese (male)
+# ef_dora      - Spanish (female)
+# em_alex      - Spanish (male)
+# em_santa     - Spanish (male)
+# ff_siwis     - French (female)
+# hf_alpha     - Hindi (female)
+# hf_beta      - Hindi (female)
+# hm_omega     - Hindi (male)
+# hm_psi       - Hindi (male)
+# if_sara      - Italian (female)
+# im_nicola    - Italian (male)
+# pf_dora      - Portuguese (female)
+# pm_alex      - Portuguese (male)
+# pm_santa     - Portuguese (male)
+
+# Speed Settings:
+SPEED=0.9
+# 0.5 = Very slow
+# 0.8 = Slow
+# 1.0 = Normal
+# 1.2 = Fast
+# 1.5 = Very fast

@@ -1,0 +1,60 @@
+# KokoroTTS Project - .gitignore
+
+# Audio output files
+audio_output/
+*.wav
+*.mp3
+*.flac
+
+# Text input files (user content)
+text_input/
+completed/
+
+# Generated chapter files
+jaynes_chapters/
+jaynes_chapters_corrected/
+jaynes_chapters_final/
+jaynes_chapters_ultimate/
+smart_chapters/
+book_chapters/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Model files (if large)
+*.pth
+*.bin
+*.safetensors
+
+# Temporary files
+temp/
+tmp/
+
+# External repositories (submodules)
+Kokoro-82M/
+kokoro-tts-cli/
